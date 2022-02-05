@@ -181,7 +181,7 @@ html{
 
 /* Start Features */
 .features{
-    padding:var(--sectionPadding);
+    padding: var(--sectionPadding) 0px;
     background-color: #F6F6F6;
 }
 .features .container{
@@ -209,7 +209,7 @@ html{
 /* End Features */
 /* Start services */
 .services{
-    padding: var(--sectionPadding);
+    padding: var(--sectionPadding) 0px;
 }
 .services .services-content{
     display: grid;
@@ -268,7 +268,7 @@ html{
 /* Start portfolio */
 
 .portfolio{
-    padding: var(--sectionPadding);
+    padding: var(--sectionPadding) 0px;
     background-color: #F6F6F6;
 }
 .portfolio .portfolio-content{
@@ -292,6 +292,11 @@ html{
 }
 .portfolio .portfolio-content .info p{
     line-height: 1.8;
+}
+@media (max-width: 991px){
+    .portfolio .portfolio-content .info{
+        text-align: center;
+    }
 }
 /* End portfolio */
 
@@ -368,7 +373,7 @@ html{
     border-color: #09766b;
 }
 .contact{
-    padding: var(--sectionPadding);
+    padding: var(--sectionPadding) 0px;
     background-color: #f6f6f6;
 }
 .contact .contact-content{
